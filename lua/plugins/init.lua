@@ -325,4 +325,19 @@ return packer.startup(function()
          require("core.mappings").vim_fugitive()
       end,
    }
+   use {
+      "folke/which-key.nvim",
+      config = function()
+      require("which-key").setup { }
+    end,
+   }
+   -- use {
+   --   'glepnir/galaxyline.nvim',
+   --    branch = 'main',
+   --    -- your statusline
+   --    config = function() require'my_statusline' end,
+   --    -- some optional icons
+   --    requires = {'kyazdani42/nvim-web-devicons', opt = true},
+   -- }
+
 end)

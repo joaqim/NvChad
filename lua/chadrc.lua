@@ -67,7 +67,7 @@ M.options = {
 
 -- these are plugin related options
 M.options.plugin = {
-   autosave = false, -- autosave on changed text or insert mode leave
+   autosave = true, -- autosave on changed text or insert mode leave
    -- timeout to be used for using escape with a key combination, see mappings.plugin.better_escape
    esc_insertmode_timeout = 300,
 }
